@@ -6,11 +6,12 @@ body {
 /* header start */
 #header {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-    background-color: #E3E6F3;
-    height: 70px;
-    align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #E3E6F3;
+  height: 70px;
+  align-items: center;
+  padding: 0 90px;
 }
 .navitem  {
 	list-style: none;
@@ -48,7 +49,7 @@ body {
 /* hero Section  start  */
 .hero{
     background-image: url(./img/hero4.png);
-    width: 100%;
+    width: auto;
     background-position: top 5% right 0;
     background-size: cover;
     height: 90vh;
@@ -56,4 +57,59 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 90px;
+}
+.hero h4,
+.hero h2,
+.hero h1 {
+    margin: 0;
+}
+.hero h4{
+    padding-bottom: 10px;
+}
+.hero h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+.hero h1{
+    color: #088178;
+    font-size: 60px;
+    font-weight: 700;
+}
+.hero button{
+    background-image: url(./img/button.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    cursor: pointer;
+    padding: 14px 80px 14px 65px;
+    border: 0;
+    color: #088178;
+    font-weight: 500;
+    font-size: 15px;
+}
+/* ene hero section */
+
+
+ /* start featur section */
+.feature{
+    padding: 0 90px;
+    display: flex;
+}
+.feature .fe-box{
+    text-align: center;
+    width: 180px;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    border:1px solid #cce7d0 ;
+    border-radius: 4px;
+    margin: 5% 15px;
+}
+.feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+.feature .fe-box h6{
+    display: inline-block;
+    padding: ;
+
 }
